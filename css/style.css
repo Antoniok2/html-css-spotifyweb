@@ -28,7 +28,7 @@ main {
     overflow: hidden;
 }
 
-/* COLONNA SX WRAPPER */
+/* COLONNA SX MAIN */
 .navbar {
     float: left;
     width: 250px;
@@ -81,8 +81,7 @@ span a {
     bottom: 110px;
 }
 
-
-/* COLONNA DX WRAPPER */
+    /* COLONNA DX MAIN */
 .content {
     float: left;
     width: calc(100% - 250px);
@@ -90,8 +89,24 @@ span a {
     background-color: #141922;
 }
 
+    /* SEZIONE UPDATE COLONNA DX MAIN */
+.update {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
 
-
+.update h4 {
+    margin-right: 20px;
+    padding: 10px 30px;
+    font-size: 15px;
+    border: 1px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+}
 
 
 

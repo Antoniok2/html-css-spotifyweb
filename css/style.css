@@ -38,12 +38,17 @@ main {
 
 .navbar img {
     width: 60%;
-    margin: 10px;
+    margin: 20px 10px;
+}
+
+.navigation {
+    margin-bottom: 40px;
 }
 
 .navigation li {
     list-style: none;
-    margin: 10px;
+    margin-left: 10px;
+    margin-bottom: 15px;
 }
 
 .navigation li a {
@@ -54,9 +59,8 @@ main {
  
 h4 {
     color: white;
-    font-size: 24px;
-    margin-left: 10px;
-    margin-top: 25px;
+    font-size: 20px;
+    margin: 10px;
 }
 
 .add_playlist {
@@ -66,10 +70,10 @@ h4 {
 span a {
     color: #717171;
     text-decoration: none;
-    margin-left: 10px ;
-    padding-right: 48%;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #717171;
+    margin: 10px;
+    border-bottom: 1px solid grey;
+    padding-right: 80px;
+    padding-bottom: 5px;  
 } 
 
 .botton_nav {

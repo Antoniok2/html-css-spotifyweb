@@ -29,11 +29,13 @@ body {
     background-color: black;
 }
 
+/* IMPOSTAZIONI LOGO */
 .wrapper .aside>img {
     width: 60%;
     margin: 10px;
 }
 
+/* IMPOSTAZIONI BARRA DI NAVIGAZIONE */
 .navigation li {
     list-style: none;
     margin: 10px;
@@ -43,6 +45,21 @@ body {
     color: white;
     text-decoration: none;
 }
+
+/* PLAYLIST */
+h4 {
+    color: white;
+    font-size: 24px;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+.add_playlist {
+    font-size: 25px;
+}
+
+
+
+
 
 /* COLONNA DX WRAPPER */
 .main {

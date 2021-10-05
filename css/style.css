@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 /* REGOLE CLEARFIX */
 .clearfix::after {
     content: "";
@@ -23,6 +27,11 @@
     width: 250px;
     height: 100%;
     background-color: black;
+}
+
+.wrapper .aside>img {
+    width: 60%;
+    margin: 10px;
 }
 
 /* COLONNA DX WRAPPER */

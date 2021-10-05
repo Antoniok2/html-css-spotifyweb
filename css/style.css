@@ -23,7 +23,7 @@ body {
 
 /* COLONNA SX WRAPPER */
 .aside {
-    position: fixed ;
+    position: fixed;
     float: left;
     width: 250px;
     height: 100%;
@@ -46,6 +46,7 @@ body {
 .navigation li a {
     color: white;
     text-decoration: none;
+    color: #868686;
 }
 
 /* PLAYLIST */
@@ -57,6 +58,20 @@ h4 {
 }
 .add_playlist {
     font-size: 25px;
+}
+
+.botton_nav {
+    position: fixed;
+    bottom: 22%;
+}
+
+span a {
+    color: #717171;
+    text-decoration: none;
+    margin-left: 10px ;
+    padding-right: 48%;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #717171;
 }
 
 

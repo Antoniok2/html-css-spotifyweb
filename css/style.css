@@ -52,7 +52,6 @@ main {
 }
 
 .navigation li a {
-    color: white;
     text-decoration: none;
     color: #868686;
 }
@@ -107,6 +106,28 @@ span a {
     border-radius: 20px;
     cursor: pointer;
 }
+
+.nav_content li {
+    display: inline-block;
+    list-style: none;
+}
+.nav_content ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+}
+.nav_content li a {
+    color: #868686;
+    text-decoration: none;
+    margin: 0 10px;
+
+}
+
+
+
+
+
 
 
 

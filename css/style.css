@@ -4,17 +4,20 @@
     box-sizing: border-box;
 }
 
-.wrapper::after {
+/* REGOLE CLEARFIX */
+.clearfix::after {
     content: "";
     display: table;
     clear: both;
 }
 
+/* QUI TROVO IL CONTENITORE PRINCIPALE */
 .wrapper {
     height: calc(100vh - 150px);
     background-color: beige;
 }
 
+/* COLONNA SX WRAPPER */
 .aside {
     float: left;
     width: 250px;
@@ -22,12 +25,14 @@
     background-color: black;
 }
 
+/* COLONNA DX WRAPPER */
 .main {
     width: 100%;
     height: 100%;
     background-color: yellow;
 }
 
+/* FOOTER */
 .navigation_bar {
     width: 100%;
     height: 150px;

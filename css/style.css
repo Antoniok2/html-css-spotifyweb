@@ -17,26 +17,29 @@ body {
 
 /* QUI TROVO IL CONTENITORE PRINCIPALE */
 .wrapper {
-    height: calc(100vh - 150px);
-    background-color: beige;
+    width: 100%;
+    height: 100vh;
+    background-color: blue;
+}
+
+/* IMPOSTAZIONI CONTENITORE NAVBAR + CONTENT */
+main {
+    height: calc(100vh - 100px);
+    overflow: hidden;
 }
 
 /* COLONNA SX WRAPPER */
-.aside {
-    position: fixed;
+.navbar {
     float: left;
     width: 250px;
     height: 100%;
     background-color: black;
 }
 
-/* IMPOSTAZIONI LOGO */
-.wrapper .aside>img {
+.navbar img {
     width: 60%;
     margin: 10px;
 }
-
-/* IMPOSTAZIONI BARRA DI NAVIGAZIONE */
 
 .navigation li {
     list-style: none;
@@ -48,21 +51,16 @@ body {
     text-decoration: none;
     color: #868686;
 }
-
-/* PLAYLIST */
+ 
 h4 {
     color: white;
     font-size: 24px;
     margin-left: 10px;
     margin-top: 25px;
 }
+
 .add_playlist {
     font-size: 25px;
-}
-
-.botton_nav {
-    position: fixed;
-    bottom: 22%;
 }
 
 span a {
@@ -72,26 +70,56 @@ span a {
     padding-right: 48%;
     padding-bottom: 10px;
     border-bottom: 1px solid #717171;
+} 
+
+.botton_nav {
+    position: fixed;
+    bottom: 110px;
 }
 
 
-
-
-
-
 /* COLONNA DX WRAPPER */
-.main {
+.content {
     float: left;
-    width: 100%;
+    width: calc(100% - 250px);
     height: 100%;
     background-color: #141922;
 }
 
+
+
+
+
+
+
+
+
 /* FOOTER */
 .navigation_bar {
-    position: fixed;
-    width: 100%;
-    height: 150px;
+    height: 100px;
     background-color: #282828;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

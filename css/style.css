@@ -43,6 +43,9 @@ main {
 .navigation {
     margin-bottom: 40px;
 }
+.over1 {
+    border-left: 2px solid yellowgreen;
+}
 
 .navigation li {
     list-style: none;
@@ -86,6 +89,11 @@ span a {
     position: fixed;
     bottom: 110px;
 }
+.botton_nav span a:hover {
+    color: white;
+}
+
+
 
     /* COLONNA DX MAIN */
 .overflow {
@@ -175,6 +183,10 @@ span a {
     max-width: max-content;
     width: 100%;
 }
+.playlist img:hover {
+    filter: opacity(0.5);
+
+}
 
 
 .overflow span {
@@ -216,6 +228,10 @@ h3 {
 
 .footer_bar_sx span {
     color: rgb(143, 143, 143);
+    cursor: pointer;
+}
+.footer_bar_sx span:hover {
+    color: white;
 }
 
 .footer_bar .img {
@@ -240,6 +256,9 @@ h3 {
     margin: 2px;
     color: rgb(143, 143, 143);
 }
+.icons_sx i:hover {
+    color: white;
+}
 
 
 /* REGOLE GENERALI COLONNA CENTRALE */
@@ -254,6 +273,7 @@ h3 {
     justify-content: center;
     align-items: center;
     margin: 10px 0;
+    cursor: pointer;
 }
 .pulsanti_player i {
     color: white;
@@ -266,6 +286,9 @@ h3 {
 }
 .pulsante_play i {
     padding: 8px 0;
+}
+.pulsante_play:hover {
+    transform: scale(1.1) ;
 }
 
 .progressione {

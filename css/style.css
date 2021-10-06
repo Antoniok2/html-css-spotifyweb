@@ -73,6 +73,10 @@ span a {
     padding-right: 80px;
     padding-bottom: 5px;  
 } 
+.overflow_playlist {
+    height: 100%;
+    overflow-y: scroll;
+}
 
 .botton_nav {
     position: fixed;
@@ -91,7 +95,7 @@ span a {
     background-color: #141922;
 }
 
-    /* SEZIONE UPDATE COLONNA DX SU MAIN */
+    /* SEZIONE UPDATE COLONNA DX SU CONTENT */
 .update {
     position: fixed;
     width: 100%;
@@ -123,7 +127,7 @@ span a {
     height: 100%;
 }
 
-/* BARRA DI NAVIGAZIONE COLONNA DX */
+/* BARRA DI NAVIGAZIONE COLONNA DX CONTENT */
 .nav_content li {
     display: inline-block;
     list-style: none;
@@ -226,22 +230,6 @@ h3 {
     color: rgb(143, 143, 143);
 }
 
-/* REGOLE GENERALI COLONNA DX FOOTER */
-.footer_bar_dx {
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-}
-.volume {
-    width: 150px;
-    height: 2px;
-    margin: 0 15px;
-    background-color: white;
-}
-.icons_dx i {
-    margin: 0 5px;
-    color: white;
-}
 
 /* REGOLE GENERALI COLONNA CENTRALE */
 .footer_bar_center {
@@ -284,3 +272,23 @@ h3 {
     margin: 0 10px;
     color: white;
 }
+
+
+
+/* REGOLE GENERALI COLONNA DX FOOTER */
+.footer_bar_dx {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.volume {
+    width: 150px;
+    height: 2px;
+    margin: 0 15px;
+    background-color: white;
+}
+.icons_dx i {
+    margin: 0 5px;
+    color: white;
+}
+

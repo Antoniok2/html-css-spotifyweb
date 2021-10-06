@@ -97,6 +97,9 @@ span a {
     height: 100px;
     background-color: rgba(0, 0, 0, 0.2);
 }
+.overflow {
+    overflow: scroll;
+}
 
 .update h4 {
     margin-right: 20px;
@@ -107,6 +110,7 @@ span a {
     cursor: pointer;
 }
 
+/* BARRA DI NAVIGAZIONE COLONNA DX */
 .nav_content li {
     display: inline-block;
     list-style: none;
@@ -121,8 +125,44 @@ span a {
     color: #868686;
     text-decoration: none;
     margin: 0 10px;
-
 }
+.over {
+    border-bottom: rgb(200, 255, 0) 1px solid;
+}
+
+/* SEZIONE ALBUM */
+
+.album {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+.playlist {
+    width: 200px;
+    height: auto;
+    margin: 20px;
+    text-align: center;
+}
+
+.playlist img {
+    max-width: max-content;
+    width: 100%;
+}
+
+.overflow span {
+    color: #868686;
+    margin-left: 20px;
+}
+
+h3 {
+    color: white;
+}
+
+.overflow h4 {
+    margin-left: 22px;
+}
+
 
 
 

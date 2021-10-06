@@ -54,6 +54,9 @@ main {
     text-decoration: none;
     color: #868686;
 }
+.navigation li a:hover {
+    color: white;
+}
  
 h4 {
     color: white;
@@ -73,10 +76,11 @@ span a {
     padding-right: 80px;
     padding-bottom: 5px;  
 } 
-.overflow_playlist {
-    height: 100%;
-    overflow-y: scroll;
+
+.overflow_playlist a:hover {
+    color: white;
 }
+
 
 .botton_nav {
     position: fixed;
@@ -115,6 +119,9 @@ span a {
     border-radius: 20px;
     cursor: pointer;
 }
+.update h4:hover {
+    transform: scale(1.1);
+}
 
 /* IMPOSTAZIONI PADDING TRA DIV UPDATE E ALBUM */
 .spaziamento {
@@ -145,6 +152,9 @@ span a {
 }
 .over {
     border-bottom: rgb(200, 255, 0) 1px solid;
+}
+.nav_content li a:hover {
+    color: white;
 }
 
 /* SEZIONE ALBUM */

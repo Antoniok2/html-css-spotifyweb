@@ -180,9 +180,71 @@ h3 {
 
 /* FOOTER */
 .navigation_bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     height: 100px;
     background-color: #282828;
 }
+
+.footer_bar {
+    display: flex;
+
+    height: 80px;
+    width: 280px;
+    background-color: green;
+}
+
+.footer_bar span {
+    color: rgb(148, 148, 148);
+}
+
+.footer_bar h5 {
+    color: white;
+}
+
+.footer_bar img {
+    width: 15%;
+    margin: 10px;
+}
+
+.icons {
+    margin-left: 40px;
+}
+
+.icons i {
+    margin: 5px;
+    color: rgb(148, 148, 148);
+}
+
+.icon i {
+    color: white;
+    margin: 5px;
+}
+
+.barra_volume {
+    height: 2px;
+    width: 100px;
+    background-color: white;
+    margin: 0 10px;
+}
+
+.pulsanti_player {
+    text-align: center;
+    margin: 0 auto;
+}
+.pulsanti_player i {
+    padding: 10px;
+}
+
+.pulsanti_player .play {
+    display: inline-block;
+    color: white;
+    border: 1px solid white;
+    border-radius: 100%;
+}
+
+
 
 
 

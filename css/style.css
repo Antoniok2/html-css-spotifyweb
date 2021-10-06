@@ -19,7 +19,6 @@ body {
 .wrapper {
     width: 100%;
     height: 100vh;
-    background-color: blue;
 }
 
 /* IMPOSTAZIONI CONTENITORE NAVBAR + CONTENT */
@@ -92,30 +91,36 @@ span a {
     background-color: #141922;
 }
 
-    /* SEZIONE UPDATE COLONNA DX MAIN */
+    /* SEZIONE UPDATE COLONNA DX SU MAIN */
 .update {
-    display: fixed;
-    text-align: end;
+    position: fixed;
     width: 100%;
     height: 100px;
-    background-color: rgb(247, 3, 3);
-    z-index: 999;
-    
-}
-.overflow {
-    overflow: scroll;
-    height: 100%;
-
+    line-height: 50%;
+    background-color: rgba(0, 0, 0, 0.356);
 }
 
 .update h4 {
     display: inline;
-    margin-right: 20px;
-    padding: 10px 30px;
+    position: fixed;
+    top: 25px;
+    right: 0;
+    padding: 15px 30px;
     font-size: 15px;
     border: 1px solid white;
     border-radius: 20px;
     cursor: pointer;
+}
+
+/* IMPOSTAZIONI PADDING TRA DIV UPDATE E ALBUM */
+.spaziamento {
+    padding-top: 100px;
+}
+
+/* IMPOSTAZIONI SCROLL PAGINA */
+.overflow {
+    overflow: scroll;
+    height: 100%;
 }
 
 /* BARRA DI NAVIGAZIONE COLONNA DX */
@@ -139,7 +144,6 @@ span a {
 }
 
 /* SEZIONE ALBUM */
-
 .album {
     display: flex;
     flex-wrap: wrap;
@@ -170,14 +174,6 @@ h3 {
 .overflow h4 {
     margin-left: 22px;
 }
-
-
-
-
-
-
-
-
 
 
 

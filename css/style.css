@@ -95,17 +95,21 @@ span a {
     /* SEZIONE UPDATE COLONNA DX MAIN */
 .update {
     display: fixed;
+    text-align: end;
     width: 100%;
     height: 100px;
-    background-color: rgba(0, 0, 0, 0.144);
+    background-color: rgb(247, 3, 3);
+    z-index: 999;
+    
 }
 .overflow {
     overflow: scroll;
-    height: 91%;
+    height: 100%;
 
 }
 
 .update h4 {
+    display: inline;
     margin-right: 20px;
     padding: 10px 30px;
     font-size: 15px;

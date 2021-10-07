@@ -2,13 +2,19 @@
 
     /* QUI TROVO IMPOSTAZIONI DIMENSIONE SEZIONE NAVBAR + MAIN */
     .navbar {
-        width: 5%;
+        width: 8%;
     }
     .content {
-        width: 95%;
+        width: 92%;
     }
     .navbar img {
-        display: none;
+        display: block;
+    }
+    .responsive1 {
+        display: block;
+    }
+    .responsive2 {
+        display: block;
     }
 
     /* QUI TOLTO TUTTO QUELLO CHE TROVO SU NAVBAR */

@@ -184,6 +184,7 @@ span a {
     height: auto;
     margin: 20px;
     text-align: center;
+    cursor: pointer;
 }
 
 .hover_play {
@@ -196,6 +197,9 @@ span a {
     color: white;
     left: 50%;
     top: 50%;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 25px;
     transform: translate(-50%, -50%);
     font-size: 20px;
 }

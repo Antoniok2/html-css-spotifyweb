@@ -190,7 +190,8 @@ span a {
     position: relative;
 }
 
-.hover_play i {
+.hover_play i{
+    display: none;
     position: absolute;
     color: white;
     left: 50%;
@@ -199,17 +200,18 @@ span a {
     font-size: 20px;
 }
 
+.playlist:hover {
+    filter: opacity(0.7);
+}
 
-
+.playlist:hover .hover_play i {
+    display: block;
+}
 
 
 .playlist img {
     max-width: max-content;
     width: 100%;
-}
-
-.playlist img:hover {
-    filter: opacity(0.5);
 }
 
 .overflow span {

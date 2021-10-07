@@ -178,6 +178,11 @@ span a {
     margin: 20px;
     text-align: center;
 }
+.hover_play i {
+    position: absolute;
+    color: white;
+}
+
 
 .playlist img {
     max-width: max-content;
@@ -329,6 +334,7 @@ h3 {
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
+    width: 300px;
 }
 .volume {
     display: flex;
@@ -340,15 +346,16 @@ h3 {
     background-color: grey;
 }
 .barra_volume {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    min-width: 80px;
     width: 80px;
     height: 2px;
     background-color: white;
 }
 .puntatore_volume {
-    position: fixed;
-    bottom: 46px;
-    right: 78px;
-    margin-left: 50px;
+
     border-radius: 50%;
     width: 4px;
     height: 4px;
@@ -360,7 +367,6 @@ h3 {
 .barra_volume:hover {
     background-color: greenyellow;
 }
-
 
 .icons_dx i {
     margin: 0 5px;

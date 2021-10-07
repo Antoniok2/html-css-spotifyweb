@@ -1,34 +1,59 @@
 @media all and (max-width: 800px) {
-    .wrapper {
-        width: 100%;
-    }
 
-    .main {
-        width: 100%;
-    }
-
+    /* QUI TROVO IMPOSTAZIONI DIMENSIONE SEZIONE NAVBAR + MAIN */
     .navbar {
-        width: 10%;
+        width: 5%;
     }
-
     .content {
-        width: 90%;
+        width: 95%;
     }
-
     .navbar img {
         display: none;
     }
 
+    /* QUI TOLTO TUTTO QUELLO CHE TROVO SU NAVBAR */
     .navigation {
         display: none;
     }
-
     .botton_nav {
         display: none;
     }
 
+    /* QUI COMINCIANO REGOLE CONTENT */
+    .overflow {
+        width: 100%;
+    }
 
+    .playlist {
+        width: 25%;
+    }
 
+    /* QUI TROVO REGOLE FOOTER */
+    .footer_bar_dx {
+        width: 230px;
+    }
 
+    .volume {
+        width: 100px;
+    }
+
+    .footer_bar_sx {
+        width: 250px;
+    }
+
+    .progressione {
+        width: 100px;
+    }
 
 }
+
+@media all and (max-height: 200px) and (min-width: 801px) {
+    .botton_nav {
+        display: none;
+    }
+    .update {
+        display: none;
+    }
+    
+}
+    

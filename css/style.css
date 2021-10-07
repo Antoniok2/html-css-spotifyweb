@@ -111,6 +111,7 @@ span a {
     /* SEZIONE UPDATE COLONNA DX SU CONTENT */
 .update {
     position: fixed;
+    z-index: 1;
     width: 100%;
     height: 100px;
     line-height: 50%;
@@ -196,9 +197,6 @@ span a {
     top: 50%;
     transform: translate(-50%, -50%);
     font-size: 20px;
-}
-.hover_play i::before {
-    display: none;
 }
 
 

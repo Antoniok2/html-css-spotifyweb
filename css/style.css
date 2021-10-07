@@ -178,9 +178,17 @@ span a {
     margin: 20px;
     text-align: center;
 }
+.hover_play {
+    position: relative;
+}
+
 .hover_play i {
     position: absolute;
     color: white;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
 }
 
 
